@@ -34,7 +34,7 @@ $('.window').on('mouseenter',function(e){
 })
 
 $('.window').on('mouseleave',function(e){
-    setTimer()
+    timerId = setTimer()
 })
 
 // 函数
